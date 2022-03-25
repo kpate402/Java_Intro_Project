@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GSTest" time="0.147" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/test-classes:/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/classes:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/kushpatel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/kushpatel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kushpatel/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/surefire/surefirebooter10748106790226829184.jar /Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/surefire 2022-02-21T01-48-55_849-jvmRun1 surefire10772986878148754053tmp surefire_012834451647228348758tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/test-classes:/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/classes:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/kushpatel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/kushpatel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kushpatel/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/kushpatel/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kushpatel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022/target/surefire/surefirebooter10748106790226829184.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="kushpatel"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/kushpatel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gt/dqv4p0hd1k75pmbnq2jc6y9h0000gn/T/"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="/Users/kushpatel/Downloads/GLMaven_Project1_S2022"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/kushpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="stackPopTest" classname="GSTest" time="0.041"/>
+  <testcase name="stackReverseIteratorHasNextTest2" classname="GSTest" time="0.001"/>
+  <testcase name="stackListIteratorPreviousTest" classname="GSTest" time="0.004"/>
+  <testcase name="stackListIteratorHasNextTest" classname="GSTest" time="0.002"/>
+  <testcase name="stackIteratorNextTest2" classname="GSTest" time="0.005"/>
+  <testcase name="stackDumpListTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackPushTest" classname="GSTest" time="0.002"/>
+  <testcase name="stackListIteratorNextTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackHeadGetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackListIteratorPreviousIndexTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackRemoveTailTest" classname="GSTest" time="0.006"/>
+  <testcase name="stackTailGetter" classname="GSTest" time="0.002"/>
+  <testcase name="stackReverseIteratorNextTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackIteratorHasNextTest2" classname="GSTest" time="0.001"/>
+  <testcase name="stackHeadSetter" classname="GSTest" time="0"/>
+  <testcase name="stackIteratorHasNextTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackConstructor" classname="GSTest" time="0.001"/>
+  <testcase name="stackConstructor2" classname="GSTest" time="0.003"/>
+  <testcase name="stackListIteratorNextIndexTest" classname="GSTest" time="0"/>
+  <testcase name="stackValGetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackTailSetter" classname="GSTest" time="0"/>
+  <testcase name="stackListIteratorAndForEachLoop" classname="GSTest" time="0.004"/>
+  <testcase name="stackDeleteNode" classname="GSTest" time="0"/>
+  <testcase name="stackDecendingIteratorAndForEachLoop" classname="GSTest" time="0.002"/>
+  <testcase name="stackValSetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackLengthGetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackIteratorAndForEachLoop" classname="GSTest" time="0.002"/>
+  <testcase name="stackAdd" classname="GSTest" time="0.001"/>
+  <testcase name="stackGet" classname="GSTest" time="0.001"/>
+  <testcase name="stackSet" classname="GSTest" time="0.001"/>
+  <testcase name="testStackprint" classname="GSTest" time="0.004"/>
+  <testcase name="stackListIteratorHasPreviousTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackIteratorNextTest" classname="GSTest" time="0.001"/>
+  <testcase name="stackLengthSetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackNextGetter" classname="GSTest" time="0.001"/>
+  <testcase name="stackNextSetter" classname="GSTest" time="0.001"/>
+</testsuite>
